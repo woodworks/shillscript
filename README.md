@@ -4,8 +4,14 @@ Hillary Clinton Programming Language :)
 
 ##Installation and Usage
 
+###Prerequisites
+- Python 3 (I have no current plans to port this to Python 2.7, but seeing as the code is by majority inefficient/unoptimized it should be easy to port if you intend to do so. I would be happy to merge pull requests that provide 2.7 functionality.) This comes preinstalled (i think) on Macs and Linux machines, and for Windows you can google.
+- Internet Connection (if you want the smtp server to actually work)
+- A text editor of your choice to create files with a choosable extension (Notepad and TextEdit both support this, but I would recommend Visual Studio Code as a personal favorite. There's also Vi, Vim, Nano, Atom)
+- Know how to use Terminal or Command Prompt, or your equivalent (I haven't tested this on the new Linux subshell on Windows 10, but I imagine if you got python to run it would work on that as well)
+
 ###Installation
-To install, you just need clinton.py in the same directory as your files or in the working path.
+To install, you just need clinton.py in the same directory as your files or in the working path. It needs the ability to read and write to files so you may need to chmod if you have extensive security.
 There are other files provided here. 
 - backup.py in case you run
 ```bash
